@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- * main our css file -->
     <link rel="stylesheet" href="css/main.css" />
+    <!-- * our media -->
+    <link rel="stylesheet" href="css/media.css" media="(max-width: 576px)" />
     <title>DevFolio</title>
   </head>
   <body data-bs-spy="scroll" data-bs-target="#mainNavbar">
@@ -98,7 +100,9 @@
           <div class="row g-4">
             <div class="col-md-6">
               <div class="info-and-skills">
-                <div class="info d-flex flex-wrap justify-content-start align-items-center gap-md-0 gap-4">
+                <div
+                  class="info d-flex flex-wrap justify-content-start align-items-center gap-md-0 gap-4"
+                >
                   <div class="image me-5">
                     <img
                       src="images/testimonial-2.jpg"
@@ -635,7 +639,7 @@
     <section id="contact" class="contact">
       <div class="container">
         <div class="contact-box">
-          <div class="row">
+          <div class="row gy-4">
             <div class="col-lg-6">
               <h2 class="mb-5">Send Message Us</h2>
               <form>
@@ -663,7 +667,7 @@
                   placeholder="Message"
                 ></textarea>
                 <button
-                  class="btn btn-primary rounded rounded-pill d-block mx-auto mt-4"
+                  class="btn btn-primary rounded rounded-pill d-block mx-md-auto mt-4"
                 >
                   Send Message
                 </button>
