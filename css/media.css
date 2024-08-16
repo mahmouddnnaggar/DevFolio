@@ -13,7 +13,7 @@ section.home .text span {
   }
   16.66%,
   25% {
-    width: calc(9 * 11px);
+    width: calc(10 * 11px);
   }
 }
 @keyframes typing-2 {
@@ -25,7 +25,7 @@ section.home .text span {
   }
   49%,
   60% {
-    width: calc(10 * 11px);
+    width: calc(11 * 11px);
   }
 }
 @keyframes typing-3 {
